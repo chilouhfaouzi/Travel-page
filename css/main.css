@@ -1,0 +1,428 @@
+/* --------------------------
+:: Template Name: Wayfaring - Travel Landing Page 
+:: Description:Travel is a One Page Travel  Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
+:: Created: 10/10/2020  MM/DD/YYYY
+-------------------------- */
+
+/*  --------------------------
+  
+ -------------------------- */
+
+/* ----------------------
+
+[Table of contents]
+01.Base CSS
+02.Header CSS
+03.benefits CSS
+04.Motive CSS
+04.Description CSS
+06-Footer CSS
+
+ --------------------------*/
+
+/*  --------------------------
+
+ No Vidoe and No Motivation sections in small screen (max-width:992px)
+
+ -------------------------- */
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-green-color: #465d50;
+  --main-orange-color: rgba(255, 111, 72, 1);
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  border-radius: 0;
+}
+
+body {
+  font-family: "Arvo", serif;
+}
+section {
+  padding: 60px 0;
+}
+
+@media (max-width: 992px) {
+  section {
+    padding: 40px 0;
+  }
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.table {
+  height: 100%;
+  display: table;
+}
+.table-row {
+  display: table-row;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+
+/* ----------- 02 -start Header CSS   -----------*/
+
+.header {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  max-height: 100%;
+  background-color: var(--main-green-color);
+  opacity: 0.51;
+  z-index: 2;
+  filter: alpha(opacity=70);
+}
+@media (max-width: 992px) {
+  .overlay {
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mobile-header-back {
+    height: 500px;
+    width: 100%;
+  }
+  .mobile-header-back img {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+.header-content {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  color: #fff;
+  padding: 30px 0;
+}
+@media (max-width: 992px) {
+  .header-content {
+    padding: 15px 0;
+  }
+}
+.header-logo {
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+@media (max-width: 992px) {
+  .header-logo {
+    font-size: 30px;
+  }
+}
+.header-content .header-title {
+  margin-left: 15px;
+}
+@media (max-width: 992px) {
+  .header-content .header-title {
+    margin-left: 10px;
+  }
+}
+.header-content .header-icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 6px;
+}
+@media (max-width: 992px) {
+  .header-content .header-icon img {
+    width: 35px;
+    height: 35px;
+  }
+}
+.header-content-body {
+  position: absolute;
+  top: 35%;
+}
+.header-content-body h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  .header-content-body h2 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+}
+.header-content-body p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 60px 0 50px;
+}
+@media (max-width: 992px) {
+  .header-content-body p {
+    font-size: 18px;
+    margin: 30px 0;
+  }
+}
+.book-btn {
+  width: 160px;
+  padding: 15px 0;
+  background: rgba(255, 111, 72, 1);
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  font-family: "Arvo";
+}
+@media (max-width: 992px) {
+  .book-btn {
+    width: 130px;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
+.header-content-body .book-btn:hover {
+  color: #fff !important;
+  background: rgba(242, 89, 55, 1);
+}
+
+/*  ----------- 02- End Header CSS  ----------- */
+
+/*  ----------- 03- Start Benefits CSS  ----------- */
+
+.benefits {
+}
+.benefits .benefits-header {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "arvo";
+  margin-bottom: 28px;
+}
+@media (max-width: 992px) {
+  .benefits .benefits-header {
+    margin-bottom: 22px;
+  }
+}
+.benefits .row .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 992px) {
+  .benefits .row .col-lg-6:nth-of-type(odd) {
+    padding-left: 15px;
+  }
+}
+
+.benefits .benefit-content-container-a {
+  background-color: #f4f4f4;
+}
+.benefit-content-container-b {
+  background-color: #465d50;
+}
+.benefits-content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 65px 0 80px;
+}
+@media (max-width: 992px) {
+  .benefits-content {
+    padding: 50px 0 60px;
+    width: 80%;
+  }
+}
+
+.container-icon-img {
+  display: inline-block;
+  background-color: #ff6f48;
+  padding: 25px 0 0;
+  width: 60px;
+  height: 60px;
+}
+@media (max-width: 992px) {
+  .container-icon-img {
+    padding: 18px 0 0;
+    width: 50px;
+    height: 50px;
+  }
+}
+.benefits .icon-img {
+  width: 100%;
+  height: 100%;
+}
+.benefits-content-header-a,
+.benefits-content-header-b {
+  margin: 25px 0 10px;
+  font-family: "Arvo";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+@media (max-width: 992px) {
+  .benefits-content-header-a,
+  .benefits-content-header-b {
+    margin: 20px 0 8px;
+    font-size: 18px;
+  }
+}
+.benefits-content-header-b {
+  color: #fff;
+}
+.benefits-content-header-b {
+  color: #fff;
+}
+
+.benefits .benefits-content p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.benefit-content-container-a p {
+  color: #111;
+}
+.benefit-content-container-b p {
+  color: #fff;
+}
+.benefit-img-container-a img,
+.benefit-img-container-b img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+.benefit-container-b {
+  height: 100%;
+}
+.benefit-container-b .benefit-content-container-a,
+.benefit-container-b .benefit-content-container-b {
+  height: 50%;
+}
+.benefit-content-container-a,
+.benefit-content-container-b {
+  height: 100%;
+}
+.benefit-img-container-a,
+.benefit-img-container-b {
+  overflow: hidden;
+  height: 100%;
+}
+.benefit-img-container-b,
+.benefit-container-b {
+  overflow: hidden;
+}
+
+/*  ----------- 03- End Benefits CSS  ----------- */
+
+/*  ----------- 04- Start Motivation CSS  ----------- */
+
+.motive {
+  background: url("../files/backpropo.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+.motive .overlay {
+  height: 100% !important;
+}
+.motive .motive-content {
+  width: 70%;
+  margin: 6% auto;
+  color: #fff;
+  position: relative;
+  z-index: 44;
+  /*  top: 40%;*/
+}
+.motive .motive-content p {
+  color: #fff;
+}
+.motive-header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/*  ----------- 04- End Motivation CSS  ----------- */
+
+/*  ----------- 05- Start Description CSS  ----------- */
+
+.desc {
+  background-color: #f4f4f4;
+}
+.desc h2 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+}
+@media (max-width: 992px) {
+  .desc h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .desc h2 {
+    font-size: 28px;
+  }
+}
+.desc ul li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (max-width: 992px) {
+  .desc ul li {
+    font-size: 16px;
+  }
+}
+.desc .book-btn {
+  margin: 25px 0;
+}
+
+/*  ----------- 05- End Description CSS  ----------- */
+
+/*  ----------- 06- Start Footer CSS  ----------- */
+.footer {
+  background-color: var(--main-green-color);
+  color: #fff;
+}
+.footer .contact-us {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "arvo";
+}
+@media (max-width: 992px) {
+  .footer .contact-us {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+.footer .footer-headers {
+  font-size: 12px;
+  color: rgb(123, 166, 142);
+}
+@media (max-width: 992px) {
+  .footer .footer-headers {
+    margin-top: 10px;
+  }
+}
+
+/*  ----------- 06- End Footer CSS  ----------- */
